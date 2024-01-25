@@ -36,9 +36,9 @@ video {
   object-fit: cover;
   object-position: center;
   
-  animation: enhance-video linear both;
+  animation: enhance-video ease-out both;
   animation-timeline: scroll(root block);
-  animation-range:0 300px ;
+  animation-range:0 400px ;
 }
 
 @keyframes enhance-video {
